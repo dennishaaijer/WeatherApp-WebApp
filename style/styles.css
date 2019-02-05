@@ -1,0 +1,100 @@
+body{
+	background-color: oldlace;
+}
+.map{
+	width: 65%;
+	height: 65%;
+	margin-left: 100px;
+}
+.map path{
+	fill: peachpuff;
+	stroke: darkgray;
+	stroke-width: 0.5px;
+}
+.map a path:hover{
+	fill: darksalmon;
+}
+.mapger{
+	width: 35%;
+	height: 35%;
+	margin: auto;
+}
+.mapger path{
+	fill: bisque;
+	stroke: darkgray;
+	stroke-width: 3px;
+}
+.mapeur{
+	margin-left: 350px;
+}
+.mapeur path{
+	fill: papayawhip;
+	stroke: darkgray;
+	stroke-width: 0.5px;
+}
+.mapeur a path{
+	fill: peachpuff;
+}
+.mapeur a path:hover{
+	fill: darksalmon;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.content {
+  background-color: oldlace;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  border: 3px solid gray;
+  border-radius: 25px;
+}
+.content h1{
+	color: brown;
+	font-family: helvetica;
+	text-align: center;
+	margin-top: -5px;
+}
+.content p{
+	font-family: helvetica;
+}
+.content hr{
+	stroke-color: brown;
+}
+.close{
+	float: right;
+}
+.logo img{
+	width: 15%;
+	height: 15%;
+	float: right;
+	margin-top: -120px;
+}
+.bkbtn button{
+	background-color: saddlebrown;
+	border: none;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	font-family: helvetica;
+	font-size: 120%;
+	color: oldlace;
+}
+.bkbtn button:hover{
+	background-color: oldlace;
+	color: saddlebrown;
+	border: 1px solid saddlebrown;
+	cursor: pointer;
+}
